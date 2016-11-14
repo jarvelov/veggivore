@@ -46,7 +46,7 @@ exports.cssLoaders = function (options) {
   return {
     css: generateLoaders(['css']),
     less: generateLoaders(['css', 'less']),
-    scss: generateLoaders(['css', 'sass'])
+    scss: generateLoaders(['css', 'sass', 'sass-resources'])
   }
 }
 
