@@ -1,6 +1,24 @@
-# vue
+# Veggivore
 
 > A Vue.js project
+
+## Preparation
+
+Use [atom](https://atom.io) editor to work with this project
+After installing `atom`, install the recommended packages.
+
+### Recommended packages
+
+`apm install --packages -file .atom.packages.list`
+
+### Recommended themes
+
+#### Material
+
+`apm install atom-material-ui atom-material-syntax`
+
+#### Nord
+`apm install nord-atom-ui apm install nord-atom-syntax`
 
 ## Build Setup
 
