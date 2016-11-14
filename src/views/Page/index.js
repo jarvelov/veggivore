@@ -1,9 +1,11 @@
+import style from './style.scss'
+
 const ViewPage = {
   name: 'ViewPage',
   render (h) {
     return (
       <div>
-        <h3>Page</h3>
+        <h3 class={style.animation}>Page</h3>
       </div>
     )
   }

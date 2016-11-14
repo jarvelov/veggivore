@@ -1,0 +1,3 @@
+.animation {
+  @include fade('in', 2s, 1);
+}
