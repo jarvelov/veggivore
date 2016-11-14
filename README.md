@@ -16,6 +16,8 @@ After installing `atom`, install the recommended packages.
 #### Nord
 `apm install nord-atom-ui apm install nord-atom-syntax`
 
+After installing the theme and syntax you have to select them in Settings -> Theme.
+
 ## Build Setup
 
 To speed up installation and build process we use [yarn](https://yarnpkg.com/) in favor of npm
