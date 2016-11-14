@@ -1,0 +1,11 @@
+@mixin padding($unit) {
+  padding: $unit;
+}
+
+@mixin fade($transition, $duration: 2s, $iteration: infinite) {
+  @if $transition == 'in' {
+    animation: fadeIn $duration $iteration
+  } @else {
+    animation: fadeOut $duration $iteration
+  }
+}
