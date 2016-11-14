@@ -1,13 +1,9 @@
-import {UserProfile, UserComments} from '../components/User'
+import Home from './Home'
+import Page from './Page'
+import User from './User'
 
-export default {
-  path: '/user/:userId',
-  name: 'user',
-  children: [{
-    path: 'profile',
-    component: UserProfile
-  }, {
-    path: 'comments',
-    component: UserComments
-  }]
-}
+export default [
+  Home,
+  Page,
+  User
+]
