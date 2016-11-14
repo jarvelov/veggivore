@@ -23,10 +23,11 @@ module.exports = {
     extensions: ['', '.js', '.scss'],
     fallback: [path.join(__dirname, '../node_modules')],
     alias: {
-      'vue$': 'vue/dist/vue',
       'src': path.resolve(__dirname, '../src'),
       'assets': path.resolve(__dirname, '../src/assets'),
-      'components': path.resolve(__dirname, '../src/components')
+      'components': path.resolve(__dirname, '../src/components'),
+      'styles': path.resolve(__dirname, '../src/styles'),
+      'views': path.resolve(__dirname, '../src/views')
     }
   },
   resolveLoader: {
@@ -62,5 +63,6 @@ module.exports = {
   },
   eslint: {
     formatter: require('eslint-friendly-formatter')
-  }
+  },
+  sassResources: path.join(__dirname, '../src/styles/**/*.scss')
 }
