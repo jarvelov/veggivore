@@ -3,7 +3,7 @@ import {sync} from 'vuex-router-sync'
 import router from './router'
 import store from './store'
 
-sync(store, router)
+sync(store, router) // keep vuex and vue-router up to sync
 
 import App from './components/App'
 
