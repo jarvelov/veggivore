@@ -1,8 +1,13 @@
+import ViewContainer from '../../views/Container'
+import { NavigationMenu } from '../Navigation'
+
 const App = {
+  name: 'App',
   render (h) {
     return (
       <div id="app">
-        <router-view></router-view>
+        <NavigationMenu/>
+        <ViewContainer/>
       </div>
     )
   }
