@@ -1,5 +1,5 @@
 {
-  "name": "vue",
+  "name": "Veggivore",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "Tobias Järvelöv <tobias@jarvelov.se>",
@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "jquery": "^3.1.1",
-    "normalize.css": "^5.0.0",
     "vue": "^2.0.1",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.0.1",
