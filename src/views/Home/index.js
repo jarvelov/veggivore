@@ -1,15 +1,14 @@
 import style from './style.scss'
 
-const Home = {
+const ViewHome = {
+  name: 'ViewHome',
   render (h) {
     return (
       <div class={style.page}>
-        <p>
-          Hej hej och saker
-        </p>
+        <h3>Home</h3>
       </div>
     )
   }
 }
 
-export default Home
+export default ViewHome

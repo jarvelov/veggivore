@@ -1,6 +1,7 @@
 import { UserProfile } from 'components/User'
 
-const User = {
+const ViewUser = {
+  name: 'ViewUser',
   render (h) {
     return (
       <div>
@@ -10,4 +11,4 @@ const User = {
   }
 }
 
-export default User
+export default ViewUser
