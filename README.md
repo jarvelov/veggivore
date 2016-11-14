@@ -13,10 +13,6 @@ After installing `atom`, install the recommended packages.
 
 ### Recommended themes
 
-#### Material
-
-`apm install atom-material-ui atom-material-syntax`
-
 #### Nord
 `apm install nord-atom-ui apm install nord-atom-syntax`
 
