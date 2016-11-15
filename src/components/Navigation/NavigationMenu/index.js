@@ -1,4 +1,4 @@
-import NavigationMenuItem from '../NavigationMenuItem'
+import NavigationMenuItem from 'components/Navigation/NavigationMenuItem'
 
 // TODO: Replace Mockup navigation items with actual data from the API
 const getNavigationMenuItems = () => {

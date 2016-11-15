@@ -1,5 +1,5 @@
-import ViewContainer from '../../views/Container'
-import { NavigationMenu } from '../Navigation'
+import ViewContainer from 'views/Container'
+import { NavigationMenu } from 'components/Navigation'
 
 const App = {
   name: 'App',
