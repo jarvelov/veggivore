@@ -1,4 +1,5 @@
 import ViewContainer from 'views/Container'
+import ViewLayoutMain from 'views/Layouts/Main'
 import { NavigationMenu } from 'components/Navigation'
 
 const App = {
@@ -6,8 +7,10 @@ const App = {
   render (h) {
     return (
       <div id="app">
-        <NavigationMenu/>
-        <ViewContainer/>
+        <ViewLayoutMain>
+          <NavigationMenu slot="header"/>
+          <ViewContainer slot="main"/>
+        </ViewLayoutMain>
       </div>
     )
   }
