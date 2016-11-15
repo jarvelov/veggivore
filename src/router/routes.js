@@ -2,8 +2,10 @@ import Home from './Home'
 import Page from './Page'
 import User from './User'
 
-export default [
+const Routes = [
   Home,
   Page,
   User
 ]
+
+export default Routes
